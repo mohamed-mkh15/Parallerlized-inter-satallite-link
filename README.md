@@ -1,4 +1,4 @@
-# Parallerlized-intersatallite-link
+# Parallerlized-inter-satallite-link
 Parallel Propagation of a constellation of satellites and determining the shortest path between two satellites. 
 First, we construct the constellatoin of satellites around earth with a walker-star pattern. Then two methods were used to parallize the code; using mpi4py
 and numba. The time performance comparison is also shown. Finally, you can find the part about finding the shortest path between a source and direct satellite.  
